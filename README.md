@@ -68,7 +68,7 @@ PropertyChain is a decentralized application (DApp) for managing property owners
 
 The PropertyChain project uses Solidity smart contracts to manage property ownership and transactions on the Ethereum blockchain. Below is an overview of the main smart contracts used in this project:
 
-### `PropertyToken.sol`
+### `PropertyToken contract`
 
 This contract represents an ERC-20 token for each property. Each property on the PropertyChain is associated with its unique ERC-20 token, allowing for ownership transfer and other token-related functionalities.
 
@@ -78,7 +78,7 @@ This contract represents an ERC-20 token for each property. Each property on the
 - `getTokenSymbol()`: Returns the symbol of the ERC-20 token.
 - `mint(address account, uint256 amount)`: Mints new tokens and assigns them to the specified account. Only the contract owner can call this function.
 
-### `LandRegistry.sol`
+### `LandRegistry contract`
 
 The `LandRegistry` contract manages properties, their ownership, and verification status.
 
