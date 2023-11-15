@@ -1,0 +1,387 @@
+.abox {
+  height: 1640px;
+  width: 2160px;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.abox .agroup {
+  height: 1640px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 2592px;
+}
+
+.abox .aoverlap {
+  height: 1640px;
+  position: relative;
+  width: 2560px;
+}
+
+.abox .arectangle {
+  background-color: #d9d9d9;
+  height: 1395px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2560px;
+}
+
+.abox .aoverlap-group-wrapper {
+  height: 96px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 2540px;
+}
+
+.abox .aoverlap-group {
+  background-color: #6b68ff;
+  border-radius: 0px 0px 10px 10px;
+  height: 96px;
+  position: relative;
+  width: 2485px;
+}
+
+.abox .atext-wrapper {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 30px;
+  font-weight: 400;
+  left: 104px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-shadow: 0px 4px 4px #52525240;
+  top: 21px;
+  width: 312px;
+}
+
+.abox .adiv {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 2168px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 192px;
+}
+
+.abox .atext-wrapper-2 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1913px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 192px;
+}
+
+.abox .atext-wrapper-3 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1563px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 288px;
+}
+
+.abox .arectangle-2 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 50px;
+  left: 1148px;
+  position: absolute;
+  top: 17px;
+  width: 384px;
+}
+
+.abox .arectangle-3 {
+  background-color: rgb(156, 156, 156);
+  height: 1299px;
+  left: 620px;
+  position: absolute;
+  top: 96px;
+  width: 1471px;
+  
+}
+
+.abox .arectangle-4 {
+  background-color: #4b4b4b;
+  height: 501px;
+  left: 620px;
+  position: absolute;
+  top: 96px;
+  width: 1471px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.abox .arectangle-5 {
+  background-color: #ff9b9b;
+  height: 347px;
+  left: 643px;
+  position: absolute;
+  top: 119px;
+  width: 480px;
+  
+}
+
+.abox .atext-wrapper-4 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 150px;
+  width: 135px;
+}
+
+.abox .atext-wrapper-5 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 216px;
+  width: 212px;
+}
+
+.abox .atext-wrapper-6 {
+  
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 396px;
+  width: 96px;
+}
+
+.abox .atext-wrapper-7 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 844px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 489px;
+  width: 77px;
+}
+
+.abox .arectangle-6 {
+  background-color: #232323;
+  height: 501px;
+  left: 620px;
+  position: absolute;
+  top: 1139px;
+  width: 1471px;
+}
+
+.abox .arectangle-7 {
+  background-color: #ff9b9b;
+  height: 347px;
+  left: 643px;
+  position: absolute;
+  top: 1162px;
+  width: 480px;
+}
+
+.abox .atext-wrapper-8 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1193px;
+  width: 135px;
+}
+
+.abox .atext-wrapper-9 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1259px;
+  width: 212px;
+}
+
+.abox .atext-wrapper-10 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1440px;
+  width: 96px;
+}
+
+.abox .atext-wrapper-11 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 844px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1533px;
+  width: 77px;
+}
+
+.abox .arectangle-8 {
+  background-color: #2e2e2e;
+  height: 501px;
+  left: 620px;
+  position: absolute;
+  top: 617px;
+  width: 1471px;
+}
+
+.abox .arectangle-9 {
+  background-color: #ff9b9b;
+  height: 347px;
+  left: 643px;
+  position: absolute;
+  top: 641px;
+  width: 480px;
+}
+
+.abox .atext-wrapper-12 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 671px;
+  width: 135px;
+}
+
+.abox .atext-wrapper-13 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 737px;
+  width: 212px;
+}
+
+.abox .atext-wrapper-14 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 918px;
+  width: 96px;
+}
+
+.abox .atext-wrapper-15 {
+  color: #ffffff;
+  font-family: IBMPlex;
+  font-size: 24px;
+  font-weight: 400;
+  left: 844px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1011px;
+  width: 77px;
+}
+
+.products-table{
+  position: relative;
+  left: 30%;
+}
+
+.products-table td{
+  font-weight: normal;
+  font-size: 1em;
+
+}
+
+.IpfsImage{
+  width: 100%;
+  height: 100%;
+}
+
+.div-image{
+  width: 1550px;
+  height: 350px;
+}
+
+.address-dedscription{
+  position: relative;
+  right: 650%;
+  font-size: 20px;
+}
+
+.isverified{
+  position: relative;
+  right: 1120%;
+  top: 40px;
+  font-size: 20px;
+}
+
+.owner-address{
+  position: relative;
+  right: 280%;
+  top: 180px;
+  font-size: 20px;
+}
+
+.details-page{
+  position: relative;
+  right: 2960%;
+  top: 130px;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+}

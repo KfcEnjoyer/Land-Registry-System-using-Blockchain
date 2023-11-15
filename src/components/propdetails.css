@@ -1,0 +1,156 @@
+@font-face {
+    font-family: IBMPlex;
+    src: url('IBMPlexMono-Regular.ttf');
+}
+
+
+h2{
+    color: black;
+    font-size: 12;
+}
+  
+.overlap {
+    background-color: #d9d9d9;
+    height: 1640px;
+    position: relative;
+    width: 2560px;
+  }
+  
+ .overlap-group-wrapper {
+    height: 96px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 2540px;
+  }
+  
+.overlap-group {
+    background-color: #6b68ff;
+    border-radius: 0px 0px 10px 10px;
+    height: 96px;
+    position: relative;
+    width: 2485px;
+  }
+  
+.text-wrapper {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 104px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 21px;
+    width: 312px;
+  }
+  
+.div {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 24px;
+    font-weight: 400;
+    left: 2168px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    width: 192px;
+  }
+  
+.text-wrapper-2 {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1913px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    width: 192px;
+  }
+  
+ .text-wrapper-3 {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1563px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    width: 288px;
+  }
+  
+.rectangle {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 50px;
+    left: 1148px;
+    position: absolute;
+    top: 17px;
+    width: 384px;
+  }
+  
+.overlap-2 {
+    background-color: #acacac;
+    border-radius: 10px;
+    height: 1132px;
+    left: 727px;
+    position: absolute;
+    top: 254px;
+    width: 1106px;
+  }
+  
+
+  
+.rectangle-2 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 92px;
+    left: 299px;
+    position: absolute;
+    top: 381px;
+    width: 509px;
+  }
+  
+  .IpfsImage{
+    height: auto;
+    width: 20%;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    right: 30%;
+    outline: 1px solid black;
+  }
+
+  .token-name-details{
+    position: absolute;
+    top: 14%;
+    right: 48%;
+    font-size: 25px;
+    font-family: IBMPlex;
+  }
+  .token-symbol{
+    position: absolute;
+    top: 19%;
+    right: 51%;
+    
+    font-size: 25px;
+    font-family: IBMPlex;
+  }
+  .token-address{
+    position: absolute;
+    top: 24%;
+    right: 27%;
+    font-size: 25px;
+    font-family: IBMPlex;
+  }
+  .etherscan-address{
+    color: black;
+    text-decoration: underline;
+  }
+

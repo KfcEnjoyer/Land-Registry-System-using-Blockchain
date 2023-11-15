@@ -1,0 +1,543 @@
+@font-face {
+  font-family: IBMPlex;
+  src: url('IBMPlexMono-Regular.ttf');
+}
+
+
+.box {
+    height: 1640px;
+    width: 2560px;
+  }
+  
+  .box .group {
+    height: 1640px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 2568px;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .box .overlap {
+    background-color: #ffffff;
+    height: 1640px;
+    position: relative;
+    width: 2560px;
+  }
+
+  .searchput{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: IBMPlex;
+  }
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 801px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 221px;
+    width: 85px;
+  }
+  
+  .box .text-wrapper1 {
+    color: #000000;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 1500px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 221px;
+    width: 85px;
+  }
+
+  .box .text-wrapper2 {
+    color: #000000;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 1500px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 325px;
+    width: 213px;
+  }
+  
+  .box .text-wrapper3 {
+    color: #000000;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 1500px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 420px;
+    width: 128px;
+  }
+  .box .text-wrapper-2 {
+    color: #000000;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 786px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 325px;
+    width: 213px;
+  }
+  
+  .box .text-wrapper-3 {
+    color: #000000;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 801px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 420px;
+    width: 128px;
+  }
+  
+  .box .overlap-group-wrapper {
+    height: 96px;
+    left: 12px;
+    position: absolute;
+    top: 0;
+    width: 2540px;
+  }
+  
+  .box .overlap-group {
+    background-color: #6b68ff;
+    border-radius: 0px 0px 10px 10px;
+    height: 96px;
+    position: relative;
+    width: 2485px;
+  }
+  
+  .box .text-wrapper-4 {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 30px;
+    font-weight: 400;
+    left: 104px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 21px;
+    width: 312px;
+  }
+  
+  .box .text-wrapper-5 {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 24px;
+    font-weight: 400;
+    left: 2168px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    width: 192px;
+  }
+  
+  .box .text-wrapper-6 {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1913px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    width: 192px;
+  }
+  
+  .box .text-wrapper-7 {
+    color: #ffffff;
+    font-family: IBMPlex;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1563px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    width: 288px;
+  }
+  
+  .box .rectangle {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 50px;
+    left: 1148px;
+    position: absolute;
+    top: 17px;
+    width: 384px;
+  }
+  
+  .box .rectangle-2 {
+    background-color: transparent;
+    height: 399px;
+    left: 190px;
+    position: absolute;
+    top: 163px;
+    width: 415px;
+  }
+  
+  .box .rectangle-3 {
+    background-color: #a3a3a3;
+    height: 98px;
+    left: 228px;
+    position: absolute;
+    top: 576px;
+    width: 102px;
+  }
+  
+  .box .rectangle-4 {
+    background-color: #a3a3a3;
+    height: 98px;
+    left: 465px;
+    position: absolute;
+    top: 576px;
+    width: 102px;
+  }
+  
+  .box .rectangle-5 {
+    background-color: #a3a3a3;
+    height: 98px;
+    left: 346px;
+    position: absolute;
+    top: 576px;
+    width: 102px;
+  }
+  
+  .box .rectangle-6 {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 85px;
+    left: 1102px;
+    position: absolute;
+    top: 592px;
+    width: 452px;
+  }
+  
+.property-name{
+    height: 34px;
+    width: 400%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;  
+    font-family: IBMPlex;
+    font-size: 19px;
+}   
+
+.property-name .placeholder{
+    left: 10%;
+}   
+
+.text-wrapper>label{
+    font-size: 20px;
+    display: inline;
+    width: 170px;
+    position:absolute;
+    top:-0.6em;
+    left:25%;
+    font-family: IBMPlex;
+    color: black;
+   
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+  }
+  
+  .text-wrapper>input{
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: solid black 1px;
+    outline:none;
+    background-color:#ffffff;
+    
+  }
+
+  .text-wrapper-2>label{
+    font-size: 20px;
+    display: inline;
+    width: 130px;
+    position:absolute;
+    top:-0.6em;
+    left:17%;
+    font-family: IBMPlex;
+    color: black;
+   
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+  }
+  
+  .text-wrapper-2>input{
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: solid black 1px;
+    outline:none;
+    background-color:#ffffff;
+    height: 24px;
+    width: 70%;
+   
+    border-radius: 10px;
+    outline: none;
+    text-align: left;  
+    font-family: IBMPlex;
+    font-size: 19px;
+    
+  }
+  .text-wrapper-3>label{
+    font-size: 20px;
+    display: inline;
+    width: 120px;
+    position:absolute;
+    top:-0.6em;
+    left:15%;
+    font-family: IBMPlex;
+    color: black;
+   
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+  }
+  
+  .text-wrapper-3>input{
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: solid black 1px;
+    outline:none;
+    background-color:#ffffff;
+    height: 24px;
+    width: 200%;
+ 
+    border-radius: 10px;
+    outline: none;
+    text-align: left;  
+    font-family: IBMPlex;
+    font-size: 19px;
+  }
+  
+  .text-wrapper1>label{
+    font-size: 20px;
+    display: inline;
+    width: 170px;
+    position:absolute;
+    top:-0.6em;
+    left:25%;
+    font-family: IBMPlex;
+    color: black;
+   
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+  }
+  
+  .text-wrapper1>input{
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: solid black 1px;
+    outline:none;
+    background-color:#ffffff;
+    height: 34px;
+    width: 250%;
+
+    border-radius: 10px;
+    outline: none;
+    text-align: left;  
+    font-family: IBMPlex;
+    font-size: 19px;
+  }
+
+  .text-wrapper2>label{
+    font-size: 20px;
+    display: inline;
+    width: 130px;
+    position:absolute;
+    top:-0.6em;
+    left:17%;
+    font-family: IBMPlex;
+    color: black;
+   
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+  }
+  
+  .text-wrapper2>input{
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: solid black 1px;
+    outline:none;
+    background-color:#ffffff;
+    height: 24px;
+    width: 90%;
+    
+    border-radius: 10px;
+    outline: none;
+    text-align: left;  
+    font-family: IBMPlex;
+    font-size: 19px;
+    
+  }
+  .text-wrapper3>label{
+    font-size: 20px;
+    display: inline;
+    width: 100px;
+    position:absolute;
+    top:-0.6em;
+    left:15%;
+    font-family: IBMPlex;
+    color: black;
+   
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+  }
+  
+  .text-wrapper3>input{
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: solid black 1px;
+    outline:none;
+    background-color:#ffffff;
+    height: 24px;
+    width: 200%;
+ 
+    border-radius: 10px;
+    outline: none;
+    text-align: left;  
+    font-family: IBMPlex;
+    font-size: 19px;
+  }
+  
+  .text-wrapper3>input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+
+  .text-wrapper2>input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+
+  .text-wrapper1>input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+
+  .text-wrapper>input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+
+  .text-wrapper-2>input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+
+  .text-wrapper-3>input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+
+
+  .submit-button{
+    height: 80%;
+    width: 80%;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 8px 12px black;
+    transition: .2s ease-in;
+    font-size: 20px;
+    color: white;
+    background-color:#8f8e8e;
+    font-family: IBMPlex;
+
+  }
+
+  .submit-button:hover{
+    transition: .2s ease-in;
+    transform: scale(1.02);
+    height: 80%;
+    width: 80%;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    box-shadow: 10px 13px 12px black;
+    background-color: rgb(104, 121, 196);
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.preview{
+  width: 98%;
+  height: 98%;
+}
+
+.img-input{
+  height: 14%;
+  width: 250px;
+  right: 18%;
+  top: 80%;
+  position: absolute;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  color: transparent;
+}
+
+.img-input::file-selector-button{
+  height: 80%;
+  width: 90%;
+  right: -3%;
+  border: none;
+  outline: none;
+  position: relative;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: IBMPlex;
+  box-shadow: 10px 5px 5px black;
+  transition: .2s ease-in;
+}
+
+.img-input::file-selector-button:hover{
+  position: relative;
+  transform: scale(1.02);
+  background-color: rgb(104, 121, 196);
+  transition: .2s ease-in;
+  color: white;
+  box-shadow: 12px 7px 5px black;
+}
