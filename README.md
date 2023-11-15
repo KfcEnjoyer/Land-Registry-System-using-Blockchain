@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# PropertyChain Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PropertyChain is a decentralized application (DApp) for managing property ownership and transactions using blockchain technology. It is built on the Ethereum blockchain and allows users to submit, verify, and transfer property ownership seamlessly.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Property Submission:** Property owners can submit their properties to the blockchain, creating a unique representation of each property.
 
-### `npm start`
+- **Ownership Transfer:** Owners can transfer the ownership of a property to another Ethereum wallet address.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Verification:** Properties can be marked as verified after real-world verification.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Property Token:** Each property is associated with an ERC-20 token, allowing for the representation of ownership and transfer.
 
-### `npm test`
+- **Profile:** Users can view their profile, including their wallet address, balance, and a list of owned properties.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Property List:** A page to view the list of properties owned by a specific wallet address.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Smart Contracts:** Solidity, OpenZeppelin library.
+  
+- **Frontend:** React.js, React Router, Web3.js.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Blockchain:** Ethereum.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    git clone https://github.com/your-username/property-chain.git
+    cd property-chain
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Start the application:
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Open your browser and go to `http://localhost:3000` to view the application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. **Submit Property:**
+   - Navigate to the "Submit Property" page.
+   - Fill in the property details and submit.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Transfer Ownership:**
+   - Navigate to your profile.
+   - Click on a property and transfer ownership by providing the recipient's wallet address.
 
-### Analyzing the Bundle Size
+3. **Verify Property:**
+   - Only the contract owner can mark a property as verified.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. **View Properties:**
+   - Visit the "Properties" page to see a list of all properties.
+   - Visit the "Property List" page and enter a wallet address to see properties owned by that address.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you would like to contribute to this project, please follow these steps:
 
-### Advanced Configuration
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
