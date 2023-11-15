@@ -64,6 +64,48 @@ PropertyChain is a decentralized application (DApp) for managing property owners
    - Visit the "Properties" page to see a list of all properties.
    - Visit the "Property List" page and enter a wallet address to see properties owned by that address.
 
+## Solidity Smart Contracts
+
+The PropertyChain project uses Solidity smart contracts to manage property ownership and transactions on the Ethereum blockchain. Below is an overview of the main smart contracts used in this project:
+
+### `PropertyToken.sol`
+
+This contract represents an ERC-20 token for each property. Each property on the PropertyChain is associated with its unique ERC-20 token, allowing for ownership transfer and other token-related functionalities.
+
+#### Functions:
+
+- `getTokenName()`: Returns the name of the ERC-20 token.
+- `getTokenSymbol()`: Returns the symbol of the ERC-20 token.
+- `mint(address account, uint256 amount)`: Mints new tokens and assigns them to the specified account. Only the contract owner can call this function.
+
+### `LandRegistry.sol`
+
+The `LandRegistry` contract manages properties, their ownership, and verification status.
+
+#### Struct:
+
+- `Property`: Represents a property on the PropertyChain, containing information such as owner, address description, verification status, initial token supply, land size, and IPFS hash.
+
+#### Functions:
+
+- `submitAndCreateProperty(...)`: Submits a new property to the registry. Only the contract owner can call this function.
+- `markAsVerified(uint256 propertyId)`: Marks a property as verified after real-world verification. Only the contract owner can call this function.
+- `transferOwnership(uint256 propertyId, address newOwner)`: Transfers ownership of a property to a new owner. Only the current owner can call this function.
+- `getAllProperties()`: Returns an array of all properties on the PropertyChain.
+- `getPropertyTokenAddress(uint256 propertyId)`: Returns the ERC-20 token address associated with a specific property.
+- `getPropertyTokenInfo(uint256 propertyId)`: Returns information about the ERC-20 token associated with a specific property, including name, symbol, and IPFS hash.
+
+### `Modifiers`:
+
+- `onlyPropertyOwner(uint256 propertyId)`: Ensures that only the current property owner can execute the function.
+
+Feel free to explore the Solidity code in the `contracts` directory for more details.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 ## Contributing
 
 If you would like to contribute to this project, please follow these steps:
